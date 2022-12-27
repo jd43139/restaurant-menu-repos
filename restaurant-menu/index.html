@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="create-new-item">
+        <input id="price-input" type="number" placeholder="price">
+        <button onclick="createNewItem()">Create</button>
+    </div>
+    <div  class="menu-container">
+        <div class="header">Talabat</div>
+        <div id="parent" class="container-menu-item">
+            <div id="item" class="menu-item">
+                <div class="image"></div>
+                <div id="button-price" class="button-price">
+                    <button>Add to cart</button>
+                    <div id="price-container" class="price">
+                        <p id="price">$4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
